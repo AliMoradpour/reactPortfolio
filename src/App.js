@@ -1,9 +1,12 @@
+import "./App.css";
+import Header from "./components/header/Header";
+
 const App = () => {
-  return ( 
+  return (
     <>
-      <div>Hello bitch!</div>
+      <Header />
     </>
-   );
-}
- 
+  );
+};
+
 export default App;

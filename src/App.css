@@ -62,7 +62,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: 0;
+  box-sizing: border-box;
 }
 
 html {
@@ -165,5 +165,19 @@ img {
 }
 
 /* Break Points  */
+@media screen and(max-width: 992px) {
+  .container {
+    margin-left: var(--mb-1-5);
+    margin-right: var(--mb-1-5);
+  }
+}
 @media screen and (max-width: 768px) {
 }
+
+@media screen and (max-width: 375px) {
+  .container{
+    margin-left: var(--mb-1);
+    margin-right: var(--mb-1);
+  }
+} 
+
