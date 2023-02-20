@@ -50,6 +50,12 @@
 }
 
 /* BreakPoinst  */
+@media screen and (max-width: 992px) {
+  .nav {
+    margin: 0 1rem;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .header {
     top: initial;
@@ -100,7 +106,7 @@
     color: var(--title-color-dark);
   }
 
-  .nav_toggle{
+  .nav_toggle {
     font-size: 1.1rem;
     cursor: pointer;
   }
