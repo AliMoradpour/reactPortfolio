@@ -82,7 +82,7 @@ function Qualification() {
 
             <div className="qualification_data">
               <div>
-                <h3 className="qualification_title">Web Develoment</h3>
+                <h3 className="qualification_title">Web Dev</h3>
                 <span className="qualification_subtitle">
                   Spain - Institute
                 </span>

@@ -92,7 +92,7 @@
   }
 }
 
-@media screen and (max-width: 350) {
+@media screen and (max-width: 375) {
   .qualification_data {
     gap: 0.5rem;
   }
