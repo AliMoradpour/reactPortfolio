@@ -8,7 +8,7 @@ function ScrollUp() {
   });
 
   return (
-    <a href="#" className="scrollUp">
+    <a href="#home" className="scrollUp">
       <i className="uil uil-arrow-up scrollUp_icon"></i>
     </a>
   );
