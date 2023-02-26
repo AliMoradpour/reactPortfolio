@@ -46,12 +46,14 @@ const Header = () => {
             <li className="nav_item">
               <a href="#contact" className="nav_link">
                 <i className="uil uil-message nav_icon"></i>
-                Contant
+                Contact
               </a>
             </li>
           </ul>
 
-          <i className="uil uil-times nav_close" onClick={() => showMenu(!Toggle)}></i>
+          <i
+            className="uil uil-times nav_close"
+            onClick={() => showMenu(!Toggle)}></i>
         </div>
 
         <div className="nav_toggle" onClick={() => showMenu(!Toggle)}>
