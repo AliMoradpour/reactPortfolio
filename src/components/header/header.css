@@ -49,6 +49,12 @@
   color: var(--title-color-dark);
 }
 
+/* scroll background Changer  */
+
+.scroll_header {
+  box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
+}
+
 /* BreakPoinst  */
 @media screen and (max-width: 992px) {
   .nav {
